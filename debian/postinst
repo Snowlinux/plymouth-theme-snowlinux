@@ -19,7 +19,7 @@
 case "$1" in
     configure)
      
-      plymouth-set-default-theme mint-logo
+      plymouth-set-default-theme snowlinux-logo
            
 	if which update-initramfs >/dev/null 2>&1
 	then
